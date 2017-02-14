@@ -1,0 +1,6 @@
+# test
+x<-c(1:10)
+# jpeg(filename="C:/R/R_{{now}}.jpg")
+jpeg(filename="{{outputPath}}/R_{{now}}.jpg")
+pie(x)
+dev.off()
